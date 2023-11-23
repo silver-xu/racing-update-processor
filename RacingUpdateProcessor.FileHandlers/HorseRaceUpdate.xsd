@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="RaceUpdate">
+		<xs:complexType>
+			<xs:all>
+				<xs:element type="xs:int" name="MeetingID" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:int" name="RaceId"/>
+				<xs:element type="xs:string" name="RaceLocation" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:int" name="RaceDistance" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:int" name="RaceNo" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:string" name="RaceType" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:string" name="RaceInfo" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:string" name="TrackCondition" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:string" name="Source" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:string" name="PriceType" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:int" name="PoolSize" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:long" name="StartTime" minOccurs="0" maxOccurs="1"/>
+				<xs:element type="xs:long" name="CreationTime" minOccurs="0" maxOccurs="1"/>
+				<xs:element name="Runners" minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Runner" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute type="xs:int" name="Id" use="required"/>
+											<xs:attribute type="xs:int" name="TabNo" use="optional"/>
+											<xs:attribute type="xs:int" name="Barrier" use="optional"/>
+											<xs:attribute type="xs:string" name="Name" use="optional"/>
+											<xs:attribute type="xs:decimal" name="Price" use="optional"/>
+											<xs:attribute type="xs:string" name="Jockey" use="optional"/>
+											<xs:attribute type="xs:string" name="Trainer" use="optional"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

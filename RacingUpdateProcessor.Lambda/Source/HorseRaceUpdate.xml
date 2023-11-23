@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RaceUpdate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<MeetingID>219120</MeetingID>
+	<RaceId>1123</RaceId>
+	<RaceLocation>Caulfield</RaceLocation>
+	<RaceDistance>2400</RaceDistance>
+	<RaceNo>5</RaceNo>
+	<RaceType>Metropolitan</RaceType>
+	<RaceInfo>Carlton Draught Caulfield Cup</RaceInfo>
+	<TrackCondition>Good(4)</TrackCondition>
+	<Source>RacingServicesProvider</Source>
+	<PriceType>Win</PriceType>
+	<PoolSize>227</PoolSize>
+	<StartTime>1697832900</StartTime>
+	<CreationTime>1697656815</CreationTime>
+	<Runners>
+		<Runner Id="101" TabNo="1" Barrier="8" Name="BORN A KING" Price="3.4" Jockey="Ben Melham" Trainer="C Maher and D Eustace"/>
+		<Runner Id="104" TabNo="2" Barrier="4" Name="AUSTRATA" Price="13.3" Jockey="Mark Zahra" Trainer="A and S Freedman"/>
+		<Runner Id="167" TabNo="3" Barrier="5" Name="ARAPAHO" Price="5.7" Jockey="Damian Lane" Trainer="T Yoshioka"/>
+		<Runner Id="256" TabNo="4" Barrier="6" Name="OCEANIC FLASH" Price="77.6" Jockey="Blake Shinn" Trainer="C J Waller"/>
+		<Runner Id="176" TabNo="5" Barrier="3" Name="TINNIE WINNIE" Price="13.8" Jockey="James Mcdonald" Trainer="C J Waller"/>
+		<Runner Id="146" TabNo="6" Barrier="1" Name="DICK WHITTINGTON" Price="29.8" Jockey="Jamie Spencer" Trainer="Simon and E Crisford"/>
+		<Runner Id="197" TabNo="7" Barrier="2" Name="KING OF CLUBS" Price="7.7" Jockey="Harry Coffey" Trainer="G M Begg"/>
+		<Runner Id="567" TabNo="8" Barrier="7" Name="COLOUR SERGEANT" Price="4" Jockey="Craig Williams" Trainer="C J Waller"/>
+	</Runners>
+</RaceUpdate>
